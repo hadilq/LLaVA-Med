@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 llava/__init__.py
@@ -31,7 +32,6 @@ llava/eval/model_vqa.py
 llava/eval/model_vqa_med.py
 llava/eval/model_vqa_science.py
 llava/eval/qa_baseline_gpt35.py
-llava/eval/qa_baseline_gpt4_translate.py
 llava/eval/run_eval.py
 llava/eval/run_eval_batch.py
 llava/eval/run_eval_batch_pvqa.py
@@ -47,6 +47,8 @@ llava/eval/eval_metrics/utils.py
 llava/instruct/instruct_few_shot_examples.py
 llava/instruct/instruct_generate.py
 llava/instruct/instruct_postprocess.py
+llava/instruct/cervical_spine/prompt.py
+llava/instruct/cervical_spine/scrape.py
 llava/model/__init__.py
 llava/model/apply_delta.py
 llava/model/consolidate.py

@@ -14,9 +14,16 @@ classifiers = [
 ]
 dependencies = [
     "accelerate", "fastapi", "gradio==3.23", "markdown2[all]", "numpy",
-    "requests", "sentencepiece", "tokenizers==0.12.1",
+    "sentencepiece", "tokenizers==0.20.3",
     "torch", "torchvision", "uvicorn", "wandb",
-    "transformers @ git+https://github.com/huggingface/transformers.git@cae78c46"
+    "transformers @ git+https://github.com/huggingface/transformers.git@768f3c016",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "pandas>=2.0.0",
+    "lxml>=4.9.0",  # For faster XML parsing
+    "anthropic>=0.7.0",
+    "typing-extensions>=4.9.0",
+    "open-clip-torch>=2.29.0"
 ]
 
 [project.urls]

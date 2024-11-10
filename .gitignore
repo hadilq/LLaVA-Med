@@ -1,0 +1,10 @@
+*.pyc
+.env
+venv/
+data/alignment/
+data/eval/
+data/instruct/
+data/llava_med_image_urls.jsonl
+.mamba/
+cervical_spine_figures*.csv
+output/
